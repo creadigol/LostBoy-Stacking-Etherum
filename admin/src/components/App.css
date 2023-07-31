@@ -1,0 +1,76 @@
+/* Styles go here */
+
+.padding50{
+    padding: 50px 20px;
+}
+
+.table-cell{
+    display: table-cell;
+}
+.vetical-align-middle{
+    vertical-align: middle;
+}
+
+.card{
+    display: block !important;
+    padding: 20px;
+    margin:20px 0px;
+}
+
+.mainCard{
+    min-height: calc(100vh - 40px);
+}
+
+
+.card label{
+    text-align: left !important;
+    width: 100%;
+}
+
+.loaderScreen{
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0px;
+    background: rgb(128 128 128 / 40%);
+    position: absolute;
+    z-index: 9;
+}
+
+.loaderScreen span{
+    font-size: 28px;
+    position: relative;
+    top: 50%;
+    z-index: 9999;
+    font-weight: bold;
+}
+.display-table{
+    display: table;
+    text-align: center;
+    margin: auto;
+}
+
+.display-table .container{
+    height: 100vh;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.display-table  a{
+    display: inline-block;
+    background: #f6851a;
+    border-radius: 100px;
+    padding: 16px 23px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.display-table span{
+    font-size: 19px;
+    text-transform: uppercase;
+    float: right;
+    line-height: 48px;
+    padding-left: 9px;
+    color: #fff;
+}
